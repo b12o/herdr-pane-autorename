@@ -2,7 +2,7 @@ id = "b12o.herdr-pane-autorename"
 name = "Pane Autorename"
 version = "0.1.0"
 min_herdr_version = "0.8.0"
-platforms = ["linux"]
+platforms = ["linux", "macos"]
 
 [[startup]]
-command = ["bash", "watch.sh"]
+command = ["bash", "herdr-pane-autorename.sh"]
