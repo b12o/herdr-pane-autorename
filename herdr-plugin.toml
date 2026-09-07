@@ -12,3 +12,8 @@ command = ["bash", "herdr-pane-autorename.sh"]
 id = "stop"
 title = "Stop the autorename watcher script"
 command = ["pkill", "-f", "herdr-pane-autorename.sh"]
+
+[[actions]]
+id = "resume"
+title = "Start/resume the autorename watcher script"
+command = ["bash", "herdr-pane-autorename.sh"]
